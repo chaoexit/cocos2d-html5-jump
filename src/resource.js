@@ -1,4 +1,4 @@
-var g_resources = [
+	var g_resources = [
     //image
     {src: 'res/images/jumper.png' }
 

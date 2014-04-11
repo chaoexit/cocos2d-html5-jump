@@ -8,9 +8,7 @@ var GameLayer = cc.LayerColor.extend({
         this.jumper = new Jumper( 400, 160 );
         this.jumper.setBlocks( this.blocks );
         this.addChild( this.jumper );
-        this.scheduleOnce(function() {
-            this.jumper.scheduleUpdate();
-        }, 1);
+        this.jumper.scheduleUpdate();
         
         this.setKeyboardEnabled( true );
 
